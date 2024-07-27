@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./style.css" rel="stylesheet" />
+    <title>Quiz Program</title>
+  </head>
+  <body>
+    <header>
+      <a href="#">Quiz Program</a>
+      <nav>
+        <p id="timer">TimeLeft: 30</p>
+        <p id="score">Score: 0</p>
+      </nav>
+    </header>
+    <section>
+      <div class="details">
+        <p>Name : Uesr</p>
+        <p>Subject: Online Quiz Program</p>
+      </div>
+    </section>
+    <div id="Questions">
+      <div class="QuestionNo">
+        <div class="questions" id="question-number">Question No: 1</div>
+
+        <hr />
+      </div>
+
+      <div class="Question">
+        <div id="question">What is the capital of France?</div>
+        <div id="options">
+          <button id="option">Paris</button>
+          <button id="option">London</button>
+          <button id="option">Berlin</button>
+          <button id="option">Madrid</button>
+        </div>
+        <div id="feedback"></div>
+      </div>
+
+      <div class="Total_Questions">
+        <div class="main_box">
+          <a href="#" class="Question_box" data-number="1">01</a>
+          <a href="#" class="Question_box" data-number="2">02</a>
+          <a href="#" class="Question_box" data-number="3">03</a>
+          <a href="#" class="Question_box" data-number="4">04</a>
+          <a href="#" class="Question_box" data-number="5">05</a>
+          <a href="#" class="Question_box" data-number="6">06</a>
+          <a href="#" class="Question_box" data-number="7">07</a>
+          <a href="#" class="Question_box" data-number="8">08</a>
+          <a href="#" class="Question_box" data-number="9">09</a>
+          <a href="#" class="Question_box" data-number="10">10</a>
+        </div>
+      </div>
+    </div>
+    <button id="btn">Submit</button>
+    <script src="./script.js"></script>
+  </body>
+</html>

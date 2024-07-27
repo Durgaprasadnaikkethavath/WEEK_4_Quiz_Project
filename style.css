@@ -1,0 +1,174 @@
+* {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Nav Bar */
+
+header {
+  background-color: #f0f0f0;
+  padding: 20px 80px;
+  font-size: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 700;
+}
+header a {
+  text-decoration: none;
+  color: rgb(197, 94, 26);
+}
+
+nav {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  gap: 120px;
+}
+
+/* Questions */
+
+#Questions {
+  display: flex;
+  gap: 10px;
+}
+
+.Question {
+  width: 700px;
+  /* height: 100vh; */
+  background-color: #e8e5e5;
+  /* color: black; */
+}
+
+.Total_Questions {
+  width: 350px;
+
+  background-color: #e8e5e5;
+  display: flex;
+}
+
+.main_box {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: start;
+}
+.main_box a {
+  text-decoration: none;
+}
+
+.Question_box {
+  padding: 20px;
+  margin: 10px;
+  color: black;
+  background-color: #aeaeae;
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+/* Questions options */
+
+#question {
+  padding: 20px 30px;
+  /* background-color: red; */
+  margin: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  color: black;
+}
+/* --------------------------------- */
+#options {
+  margin-bottom: 10px;
+  height: 40vh;
+}
+
+#options button {
+  /* display: flex;
+  width: 90%;
+  margin-left: 35px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px solid #007bff;
+  background-color: #007bff;
+  color: white; */
+  display: flex;
+  width: 90%;
+  color: white;
+  cursor: pointer;
+  margin: 10px 30px;
+  /* height: 40px; */
+  text-align: center;
+  border: 2px solid #007bff;
+  background-color: #007bff;
+  border-radius: 5px;
+}
+
+#options button:hover {
+  background-color: #0055b1;
+  border: 2px solid #0055b1;
+}
+
+button {
+  /* padding: 18px;
+  margin-top: 10px;
+  font-size: 16px; */
+  padding: 10px;
+}
+/* ------------------------------------------------------ */
+#btn {
+  width: 100%;
+  background-color: green;
+  border: 2px solid green;
+  padding: 10px;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.QuestionNo {
+  width: 200px;
+  background-color: #e8e5e5;
+  padding: 20px;
+  margin-left: 5px;
+  /* color: white; */
+  /* color: green; */
+}
+
+#question-number {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 40px;
+}
+
+#feedback {
+  font-size: 18px;
+  text-align: center;
+  /* margin-top: 100px; */
+  font-weight: 600;
+  /* margin-bottom: 20px;
+  margin-left: 20px; */
+  margin: 10px 30px;
+}
+
+section {
+  margin-bottom: 7px;
+  background-color: #f0f0f0;
+  margin-top: 7px;
+}
+
+.details {
+  padding: 20px;
+  text-align: center;
+}
+.details {
+  font-size: 20px;
+  font-weight: 600;
+}
